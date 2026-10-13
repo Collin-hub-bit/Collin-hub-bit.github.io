@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS2 - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">CS2 Website</h1>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="maps.html">Maps</a>
+        <a href="weapons.html">Weapons</a>
+        <a href="tips.html">Tips</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="content">
+        <h2>Our Group</h2>
+        <p>Made by Student 1 and Student 2.</p>
+        <p>We made this website for our school project. It gives simple information about CS2 for people who want to learn about the game.</p>
+
+        <div class="row">
+            <div class="col2">
+                <h3>Contact Form</h3>
+                <p>Choose your favourite map and write a short comment. This is a practice form. It does not send a message.</p>
+
+                <form action="contact.html" method="get">
+                    <label for="name">Game Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="map">Favourite Map:</label><br>
+                    <select id="map" name="map">
+                        <option>Dust II</option>
+                        <option>Nuke</option>
+                        <option>Overpass</option>
+                    </select><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message"
+                              rows="4" cols="30" required></textarea><br>
+
+                    <button type="submit">Submit Demo</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+
+            <div class="col2">
+                <h3>Useful Links</h3>
+                <p>For official game information, visit the links below. You can also return to our Maps or Tips page to keep reading.</p>
+
+                <ul>
+                    <li>
+                        <a href="https://store.steampowered.com/app/730/CounterStrike_2/">
+                            CS2 on Steam
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.counter-strike.net/cs2">
+                            Official CS2 Website
+                        </a>
+                    </li>
+                    <li><a href="maps.html">Our Maps Page</a></li>
+                    <li><a href="tips.html">Our Tips Page</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <p class="footer">CS2 School Project | Images: Valve / Steam</p>
+</body>
+</html>
